@@ -299,3 +299,60 @@ table, th, td {
     bottom: 0;
     margin: auto;
 }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar-logo img {
+        width: 80px;
+        margin-left: 0;
+    }
+    .navbar-menu, .navbar-icon {
+        width: 24px;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    /* Text scaling for div1 labels */
+    .lbl1 {
+        font-size: 5vw;
+    }
+
+    .lbl2, .lbl4 {
+        font-size: 2.5vw;
+    }
+
+    /* Div padding adjustments for smaller screens */
+    .div1 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contentt img {
+        width: 100%;
+    }
+
+    /* Flexbox adjustments for containers and div5 */
+    .container3, .container4, .div5 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box img {
+        width: 100%;
+    }
+
+    /* Image grid adjustments */
+    .image-grid img {
+        width: calc(50% - 10px);
+    }
+    @media (max-width: 768px) {
+        .image-grid img {
+            width: 100%;
+        }
+    }
+
+    /* Footer adjustments */
+    footer .column {
+        width: 100%;
+        text-align: center;
+        padding: 5px 0;
+    }
+}
